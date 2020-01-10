@@ -13,14 +13,13 @@ into the (windows) User\platformio\packages\framework-kendryte-standalone-sdk\li
 
 Usage:
 
+```c++
 #include "imglib.h"
 
 int main(void)
 {
-    /* Set CPU and Cam */
     cpu_ini();
     cam_ini();
-    /* Load Model */
     model_load();
     
     while (1)
@@ -29,3 +28,4 @@ int main(void)
 
     }
 }
+```
