@@ -1,4 +1,6 @@
-This is a face detection/tracking demo using the Kendryte K210 chip, with the Standalone SDK. Excellent performance and low power consumption.
+This is a face detection/tracking demo using the Kendryte K210 chip, with the Standalone SDK. Excellent performance and low power consumption (about 150mA when running demo).
+
+The demo uses the Maix M1 Dock, with a OV2640 camera and LCD. You can specify a OV5640 cam in the lib/board_config.h
 
 The intial code (modified) from here:
 https://github.com/kendryte/kendryte-standalone-demo/tree/develop/face_detect
