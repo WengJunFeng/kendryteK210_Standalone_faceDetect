@@ -8,4 +8,4 @@ Built with Visual Studio Code (platform IO extension).
 In order to get this working, I had to copy the lib folder from:
 https://github.com/kendryte/kendryte-standalone-sdk
 
-into the (windows) User\.platformio\packages\framework-kendryte-standalone-sdk\lib
+into the (windows) User\platformio\packages\framework-kendryte-standalone-sdk\lib
