@@ -9,3 +9,23 @@ In order to get this working, I had to copy the lib folder from:
 https://github.com/kendryte/kendryte-standalone-sdk
 
 into the (windows) User\platformio\packages\framework-kendryte-standalone-sdk\lib
+
+
+Usage:
+
+#include "imglib.h"
+
+int main(void)
+{
+    /* Set CPU and Cam */
+    cpu_ini();
+    cam_ini();
+    /* Load Model */
+    model_load();
+    
+    while (1)
+    {
+        run_model();
+
+    }
+}
